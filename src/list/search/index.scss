@@ -1,0 +1,43 @@
+.search {
+  color: #68767c;
+  font-weight: 400;
+  font-size: 16px;
+  position: relative;
+  margin-bottom: 30px;
+
+  .show {
+    cursor: pointer;
+  }
+
+  img {
+    width: 14px;
+  }
+
+  .drop-down {
+    position: absolute;
+    background: #ffffff;
+    z-index: 10;
+    box-shadow: 0 6px 20px 2px rgba(0,0,0,0.1);
+    margin-top: 10px;
+    border-radius: 4px;
+
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 8px;
+
+      li {
+        height: 28px;
+        padding: 6px;
+        line-height: 28px;
+        cursor: pointer;
+
+        &:hover{
+          background: #f6f7f8;
+          color: #2b9be7;
+        }
+
+      }
+    }
+  }
+}

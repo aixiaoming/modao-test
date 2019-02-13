@@ -1,0 +1,32 @@
+.add-card {
+  width: 100%;
+  cursor: pointer;
+
+  .top {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    margin-top: 20px;
+
+    .img-warp {
+      width: 40px;
+      height: 40px;
+      background: #c8cdd0;
+      border-radius: 50%;
+
+      img {
+        width: 40px;
+      }
+    }
+  }
+
+  .text {
+    margin-top: 15px;
+    width: 100%;
+    color: #c8cdd0;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+}

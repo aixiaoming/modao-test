@@ -1,0 +1,44 @@
+[
+  {
+    "name": "墨刀实验室",
+    "color": "#69d591",
+    "is_private": false,
+    "is_lock": false,
+    "number": 3
+  },
+  {
+    "name": "墨刀魔法棒团队",
+    "color": "#fec16c",
+    "is_private": false,
+    "is_lock": false,
+    "number": 0
+  },
+  {
+    "name": "超级工作组",
+    "color": "#fd8b8c",
+    "is_private": true,
+    "is_lock": false,
+    "number": 4
+  },
+  {
+    "name": "冷笑客服组",
+    "color": "#ee7a71",
+    "is_private": false,
+    "is_lock": false,
+    "number": 4
+  },
+  {
+    "name": "设计部门",
+    "color": "#fec55d",
+    "is_private": false,
+    "is_lock": false,
+    "number": 4
+  },
+  {
+    "name": "Third Reactor",
+    "color": "#81cced",
+    "is_private": true,
+    "is_lock": true,
+    "number": 1
+  }
+]

@@ -1,0 +1,65 @@
+.card {
+  width: 100%;
+  display: flex;
+
+  .left {
+    width: 50px;
+    margin-right: 20px;
+
+    .card-color {
+      height: 50px;
+      border-radius: 50%;
+    }
+  }
+
+  .right {
+    flex: 1;
+
+    div {
+      padding: 5px 0;
+
+      button {
+        border: 1px solid #8e9ea5;
+        margin-right: 10px;
+        border-radius: 3px;
+        color: #8e9ea5;
+        height: 22px;
+        font-size: 14px;
+        padding: 0 5px;
+
+        img {
+          height: 14px;
+        }
+      }
+
+    }
+
+    .name {
+      color: #606f76;
+      font-size: 16px;
+    }
+
+    .status {
+      margin: 6px 0;
+      height: 22px;
+
+      .btn-img{
+        width: 14px;
+        float: left;
+        padding: 3px;
+      }
+    }
+
+    .number {
+      color: #97a7ad;
+      font-size: 14px;
+
+      .big-number {
+        color: #7d8694;
+        font-weight: 400;
+        font-size: 20px;
+      }
+
+    }
+  }
+}
