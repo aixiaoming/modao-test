@@ -1,3 +1,22 @@
-node 10.15.0
+## 环境准备
+- node v10+ (我的node版本为 v10.15.0)
+- Yarn v0.25+
 
-yarn install
+## 安装项目
+- git clone https://github.com/aixiaoming/modao-test.git
+- cd modao-test
+- yarn install
+
+## 启动项目
+- yarn start
+- 在浏览器中访问 http://localhost:3000/
+
+## 打包
+- yarn build
+
+## bug
+- 暂未发现
+
+## 验收
+- 按以上命令启动项目  访问http://localhost:3000/
+- 或者 打包后 在build文件夹下新建虚拟域名进行测试
